@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Cursor canvases (IDE-only; import cursor/canvas which is not available at build time)
+canvases/
+*.canvas.tsx
